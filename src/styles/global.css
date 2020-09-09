@@ -8,8 +8,8 @@
 
 
 
-    --color-blue-secondary-lighter:#356BD0;
-    --color-blue-secondary-light:#1A49A0;
+    --color-blue-secondary-light:#356BD0;
+    --color-blue-secondary-lighter:#1A49A0;
     --color-blue-secondary-dark:#0A2A66;
     --color-blue-secondary-darker:#06193B;
 
@@ -20,10 +20,10 @@
     --color-grey-primary-darker:#C6CCD7;
 
 
-    --color-blue-secondary-lighter:#919BB1;
-    --color-blue-secondary-light:#768198;
-    --color-blue-secondary-dark:#424E67;
-    --color-blue-secondary-darker:#151F33;
+    --color-grey-secondary-lighter:#919BB1;
+    --color-grey-secondary-light:#768198;
+    --color-grey-secondary-dark:#424E67;
+    --color-grey-secondary-darker:#151F33;
 
 
    
@@ -36,4 +36,11 @@
     --color-green-dark:#3D7100;
 
 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
 }
