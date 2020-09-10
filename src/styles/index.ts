@@ -1,6 +1,4 @@
-import React from 'react'
-import styled from 'styled-components'
-import Button from '@material-ui/core/Button'
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
@@ -17,9 +15,8 @@ export const Header = styled.div`
 `;
 
 export const DivButton = styled.div`
-margin:0 auto;
+  margin: 0 auto;
   grid-area: button;
-
 `;
 export const DivPhoneInput = styled.div`
   background-color: yellow;
@@ -35,4 +32,3 @@ export const DivFooter = styled.div`
   background-color: purple;
   grid-area: footer;
 `;
-
