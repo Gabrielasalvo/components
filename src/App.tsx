@@ -8,14 +8,13 @@ import {
   DivPhoneInput,
   DivCtaButton,
   DivFooter,
-} from "./components/styles";
+} from "./styles";
 
 function App() {
   return (
     <Container>
       <Header>Header</Header>
       <DivButton>
-        {" "}
         <DefaultButton title="Botao" />
       </DivButton>
       <DivPhoneInput/>
