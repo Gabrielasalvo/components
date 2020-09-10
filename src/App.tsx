@@ -23,7 +23,7 @@ function App() {
       <DivPhoneInput>
 
         
-        <PhoneInput length={11}title={""}/>
+        <PhoneInputMask />
 
         </DivPhoneInput>
       <DivCtaButton>

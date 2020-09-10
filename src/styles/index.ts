@@ -7,8 +7,7 @@ export const Container = styled.div`
     "button phone cta"
     "footer footer footer";
   grid-template-rows: 50px 60vh 200px;
-  overflow:hidden;
- 
+  overflow: hidden;
 `;
 
 export const Header = styled.div`
@@ -19,20 +18,20 @@ export const Header = styled.div`
 export const DivButton = styled.div`
   margin: 0 auto;
   grid-area: button;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 export const DivPhoneInput = styled.div`
-  border-left:1px solid grey;
+  border-left: 1px solid grey;
   grid-area: phone;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const DivCtaButton = styled.div`
-border-left:1px solid grey;
+  border-left: 1px solid grey;
   background-color: green;
   grid-area: cta;
 `;
