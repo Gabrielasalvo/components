@@ -11,7 +11,8 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.div`
-  background-color: red;
+  border-bottom: 1px solid var(--color-grey-primary-dark);
+  text-align: center;
   grid-area: header;
 `;
 
@@ -23,7 +24,7 @@ export const DivButton = styled.div`
   align-items: center;
 `;
 export const DivPhoneInput = styled.div`
-  border-left: 1px solid grey;
+  border-left: 1px solid var(--color-grey-primary-dark);
   grid-area: phone;
   display: flex;
   justify-content: center;
@@ -31,12 +32,12 @@ export const DivPhoneInput = styled.div`
 `;
 
 export const DivCtaButton = styled.div`
-  border-left: 1px solid grey;
+  border-left: 1px solid var(--color-grey-primary-dark);
   background-color: green;
   grid-area: cta;
 `;
 
 export const DivFooter = styled.div`
-  background-color: purple;
+  border-top: 1px solid var(--color-grey-primary-dark);
   grid-area: footer;
 `;
