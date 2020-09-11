@@ -33,7 +33,9 @@ export const DivPhoneInput = styled.div`
 
 export const DivCtaButton = styled.div`
   border-left: 1px solid var(--color-grey-primary-dark);
-  background-color: green;
+  display:flex;
+  justify-content:center;
+  align-items:center;
   grid-area: cta;
 `;
 

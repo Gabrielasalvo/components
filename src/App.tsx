@@ -1,7 +1,8 @@
 import React from "react";
 import DefaultButton from "./components/Button";
 import TelegramIcon from "@material-ui/icons/Telegram";
-
+import { PhoneInput } from "./components/PhoneInput";
+import {Phone } from './components/PhoneInput2'
 import {
   Container,
   Header,
@@ -10,7 +11,8 @@ import {
   DivCtaButton,
   DivFooter,
 } from "./styles";
-import { PhoneInput } from "./components/PhoneInput";
+
+
 
 
 function App() {
@@ -25,7 +27,10 @@ function App() {
       <DivPhoneInput>
         <PhoneInput length={1} title="Phone Input" />
       </DivPhoneInput>
-      <DivCtaButton></DivCtaButton>
+      <DivCtaButton>
+        <Phone/>
+     
+      </DivCtaButton>
       <DivFooter />
     </Container>
   );

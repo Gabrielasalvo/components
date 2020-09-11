@@ -1,5 +1,4 @@
 import React from "react";
-
 import TelegramIcon from "@material-ui/icons/Telegram";
 import { StyledButton, ButtonProgress } from "./styles";
 import ButtonTypes from "./ButtonTypes";
@@ -18,7 +17,7 @@ const DefaultButton: React.FC<ButtonTypes> = (props) => {
     }
   }
 
-  function handleButton(title: String, icon:any) {
+  function handleButton(title: String, icon: any) {
     switch (text) {
       case "title":
         return (

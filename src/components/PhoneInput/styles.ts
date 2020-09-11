@@ -2,15 +2,28 @@ import styled from "styled-components";
 import MaskedInput from "react-text-mask";
 
 export const DivInput = styled.div`
-  width: 300px;
-`;
-export const StyledTextField = styled(MaskedInput)`
+  display: flex;
+  height: 60px;
+  border: 1px solid var(--color-grey-primary-darker);
+  box-sizing: border-box;
+  padding: 0px 20px;
+  border-radius: 4px;
+  border-radius: 4px;
   text-align: center;
-  height: 32px;
-  top: 24px;
   align-items: center;
   display: flex;
-  border: 1px solid var(--color-blue-primary-dark);
+`;
+
+export const StyledTextField = styled(MaskedInput)`
+  text-align: center;
+::placeholder{
+  font-size:16px;
+  font-weight:500px;
+  color:var(--color-grey-secondary-lighter);
+  line-height:16px;
+}
+  align-items: center;
+  display: flex;
+  border: none;
   border-radius: 4px;
-  display: inline-block;
 `;
