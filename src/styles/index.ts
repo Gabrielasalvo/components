@@ -6,29 +6,40 @@ export const Container = styled.div`
     "header header header"
     "button phone cta"
     "footer footer footer";
-  grid-template-rows: 50px 650vh 50px;
+  grid-template-rows: 50px 60vh 200px;
+  overflow: hidden;
 `;
 
 export const Header = styled.div`
-  background-color: red;
+  border-bottom: 1px solid var(--color-grey-primary-dark);
+  text-align: center;
   grid-area: header;
 `;
 
 export const DivButton = styled.div`
   margin: 0 auto;
   grid-area: button;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 export const DivPhoneInput = styled.div`
-  background-color: yellow;
+  border-left: 1px solid var(--color-grey-primary-dark);
   grid-area: phone;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const DivCtaButton = styled.div`
-  background-color: green;
+  border-left: 1px solid var(--color-grey-primary-dark);
+  display:flex;
+  justify-content:center;
+  align-items:center;
   grid-area: cta;
 `;
 
 export const DivFooter = styled.div`
-  background-color: purple;
+  border-top: 1px solid var(--color-grey-primary-dark);
   grid-area: footer;
 `;

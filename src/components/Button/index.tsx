@@ -1,9 +1,9 @@
 import React from "react";
-import ButtonInterface from "./ButtonInterface";
 import TelegramIcon from "@material-ui/icons/Telegram";
 import { StyledButton, ButtonProgress } from "./styles";
+import ButtonTypes from "./ButtonTypes";
 
-const DefaultButton: React.FC<ButtonInterface> = (props) => {
+const DefaultButton: React.FC<ButtonTypes> = (props) => {
   const [text, setText] = React.useState("title");
 
   function handleClick() {
@@ -13,15 +13,15 @@ const DefaultButton: React.FC<ButtonInterface> = (props) => {
       setText("loading");
       setTimeout(() => {
         setText("disable");
-      }, 2000);
+      }, 1000);
     }
   }
 
-  function handleButton(title: String) {
+  function handleButton(title: String, icon: any) {
     switch (text) {
       case "title":
         return (
-          <StyledButton startIcon={<TelegramIcon />} onClick={handleClick}>
+          <StyledButton {...icon} onClick={handleClick}>
             {title}
           </StyledButton>
         );
@@ -41,7 +41,7 @@ const DefaultButton: React.FC<ButtonInterface> = (props) => {
         );
     }
   }
-  return <div>{handleButton(props.title)}</div>;
+  return <div>{handleButton(props.title, props.icon)} </div>;
 };
 
 export default DefaultButton;
