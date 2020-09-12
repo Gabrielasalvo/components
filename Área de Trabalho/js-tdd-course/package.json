@@ -1,0 +1,35 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush":"npm run lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Gabrielasalvo/javascript-tdd-course.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "javascript"
+  ],
+  "author": "Gabriela Salvo <gabrielamdesalvo@gmail.com> (https://github.com/gabrielasalvo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gabrielasalvo/javascript-tdd-course/issues"
+  },
+  "homepage": "https://github.com/Gabrielasalvo/javascript-tdd-course#readme",
+  "dependencies": {
+    "gitignore": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "husky": "^4.3.0"
+  }
+}
